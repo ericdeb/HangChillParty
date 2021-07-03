@@ -1,0 +1,354 @@
+#updates {
+	width:100%;
+	margin-top:30px;
+	z-index:2;
+}
+
+
+#updatesAlignedCenter {
+	width:634px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#updatesTop, #updatesMiddle, #updatesBottom {
+	display:none;	
+}
+
+#updatesTop {
+	width:100%;
+	height:66px;
+	-moz-border-radius-topright: 65px;
+	-moz-border-radius-topleft: 65px;
+	border-top-left-radius: 65px;
+	border-top-right-radius: 65px;
+	background-color:#FFF;
+}
+
+
+#updatesBottom {
+	margin-top:10px;
+	width:100%;
+	height:66px;
+	-moz-border-radius-bottomright: 65px;
+	-moz-border-radius-bottomleft: 65px;
+	border-bottom-left-radius: 65px;
+	border-bottom-right-radius: 65px;
+	background-color:#FFF;
+}
+
+
+#updatesMiddle {
+	width:100%;
+	background-color:#FFF;
+	-moz-border-radius: 65px;
+	padding-bottom:30px;
+	-webkit-border-radius: 65px;
+	min-height:390px;
+}
+
+
+#updatesTopMsg {
+	position:relative;
+	top:40px;
+	text-align:center;
+}
+
+
+#updatesTopMsg span{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#myUpdate {
+	min-height:130px;
+	float:right;
+	margin-top:110px;
+	width:670px;
+}
+
+#friendsUpdates {
+	float:right;
+	min-height:90px;
+	width:700px;
+}
+
+#myUpdateTop {
+	float:left;
+	height:150px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:60px;
+	width:102px;
+}
+
+#myUpdateTop img {
+	float:right;	
+}
+
+
+#friendsUpdatesTop {
+	clear:both;
+	float:left;
+	height:50px;
+	margin-left:20px;
+	margin-top:15px;
+}
+
+
+#friendsUpdatesTop span{
+	float:left;
+	margin-top:17px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	position:relative;
+	right:40px;
+}
+
+
+#cancelStatusButton {
+	float:right;
+	position:relative;
+	margin-top:19px;
+	color:#C03237;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+
+#fakeActivity {
+	font-size:12px;
+	line-height:13px;
+	font-family:"Myriad Pro", Tahoma, Geneva, sans-serif;
+	width:380px;
+	margin-top:20px;
+}
+
+
+#fakeActivityCover {
+	width:380px;
+	height:20px;
+	background-color:#00003D;
+	position:absolute;
+	margin-top:20px;
+}
+
+.updateTime {
+	font-size:11px;
+	margin-top:20px;
+	margin-left:42px;
+	width:46px;
+	color:#666;
+}
+
+
+#updateLine {
+	color:#000;
+	border: solid 1px #000;
+	position:relative;
+	width:660px;
+	right:20px;
+}
+
+
+#nobodysUpdated {
+	font-size:16px;
+	left:220px;
+	position:relative;
+	top:20px;	
+}
+
+#updateLoad img{
+	position:relative;
+	left:274px;
+}
+
+#updateError {
+	text-align:center;
+	color:#C03237;
+	font-size:16px;
+	font-weight:bold;
+	position:relative;
+	top:10px;
+}
+
+#updatesBottom {
+	position:relative;
+	bottom:8px;
+}
+
+.updateShell {
+	position:relative;
+	width:670px;
+	clear:left;
+	height:80px;
+	float:right;
+	margin-right:30px;
+	height:130px;
+}
+
+
+.update {
+	position:relative;
+}
+
+.update .userImage {
+	float:left;	
+}
+
+.updateUpdateLeft {
+	width:60px;
+	margin-left:8px;
+	margin-right:14px;
+}
+
+.updateUpdateLeft span, .updateProfileLeft span {
+	font-size:22px;
+	font-weight:bold;
+}
+
+.updateUpdateLeft, .updateProfileLeft {
+	float:left;	
+	border-top:solid 4px #DDD;
+}
+
+.updateFriendLinkDiv a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#0664A3;
+	margin-left:1px;
+	margin-right:1px;
+}
+
+.updateFriendLinkDiv span {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	color:#0664A3;
+}
+
+.updateRight {
+	border-top:2px solid #AAAAAA;
+	float:left;
+	width:510px;
+}
+
+.updateFriendLinkDiv {
+	height:26px;
+	padding-top:4px;
+	width:410px;
+	float:left;
+	border-bottom:1px #E9E9E9 solid;
+}
+
+.updateFriendLinkDiv span {
+	height:26px;
+	padding-top:4px;
+}
+
+
+.updatePlace {
+	border-top:1px #E9E9E9 solid;
+	width:410px;
+	float:left;
+	margin-top:6px;
+	padding-top:2px;
+}
+
+.updatePlace span, .updateActivity span{
+	font-size:13px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+.updateActivity {
+	float:left;
+	width:410px;
+	padding-top:2px;
+}
+
+
+.updateTimes {
+	height:34px;
+	position:absolute;
+	right:70px;
+	top:96px;
+	width:100px;
+}
+
+.updateTimes span {
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#888;
+}
+
+.joinLightGreen {
+	background-image:url(../Images/joinLightGreen.png);
+}
+
+.joinLightGreen a {
+	color:#138F6D;
+}
+
+.joinLightYellow {
+	background-image:url(../Images/joinLightYellow.png);
+}
+
+.joinLightYellow a {
+	color:#E9A713;
+}
+
+.joinLightRed {
+	background-image:url(../Images/joinLightRed.png);
+}
+
+
+
+.joinLight {
+	width:68px;
+	height:69px;
+	float:right;
+	margin-top:15px;
+}
+
+
+.joinLightLink {
+	float:left;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	margin-left:17px;
+	margin-top:9px;
+}
+
+.updateJoinGreenHover {
+	background-color:#19ff8c;
+}
+
+.updateJoinYellowHover {
+	background-color:#ffff45;
+}
+
+.updateJoinRedHover {
+	background-color:#c1272d;
+}
+
+.updateActivity span, .updatePlace span {
+	position:relative;
+	left:3px;
+}
+
+
+.firstNameLinkRight {
+	position:relative;
+	right:1px;
+}
+
+#updateError span{
+	color:#B21800;
+}
+
+
+

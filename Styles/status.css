@@ -1,0 +1,340 @@
+#status {
+	-moz-border-radius-bottomright: 65px;
+	-moz-border-radius-bottomleft: 65px;
+	border-bottom-left-radius: 65px;
+	border-bottom-right-radius: 65px;
+	background-color:#FFF;
+	padding-top:15px;
+	padding-bottom:50px;
+}
+
+
+#statusError {
+	width:300px;
+	font-size:16px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+}
+
+.signalButtonError span{
+	color:#B21800;		
+}
+
+.signalButtonSuccess span{
+	color:#662D91;	
+}
+
+
+#statusLightDiv {
+	margin-left:auto;
+	margin-right:auto;
+	width:250px;
+	height:180px;
+}
+
+
+#statusLightDiv span {
+	font-size:15px;
+}
+
+
+#statusLightLabel {
+	text-align:center;
+	margin-bottom:5px;
+}
+
+
+#leftArrowImg, #rightArrowImg, #bigLightContainer, #statusLightMsg {
+	float:left;
+}
+
+
+#leftArrowImg {
+	cursor:pointer;
+	margin-left:37px;
+	margin-top:44px;
+}
+
+
+#rightArrowImg {
+	margin-top:44px;
+	cursor:pointer;
+}
+
+
+#statusLightMsg {
+	margin-top:10px;
+	clear: both;
+	width:100%;
+	text-align:center;
+}
+
+
+#bigLightGreen, #bigLightYellow, #bigLightRed {
+	position:absolute;
+	top:0px;
+}
+
+
+#bigLightContainer {
+	height:120px;
+	width:120px;
+	overflow:hidden;
+	position:relative;
+	margin-left:12px;
+	margin-right:12px;
+}
+
+
+#moreFeaturesButton {
+	bottom:36px;
+	cursor:pointer;
+	height:46px;
+	margin-left:30px;
+	margin-top:14px;
+	position:relative;
+	width:146px;
+}
+
+
+.moreFeaturesBotRound {
+	-moz-border-radius-bottomright: 30px;
+	-moz-border-radius-bottomleft: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+
+#moreFeaturesButton span {
+	font-size:15px;
+	color:#FFF;
+	position:relative;
+	bottom:2px;
+	margin-left:14px;
+	margin-right:5px;
+}
+
+
+#moreFeaturesBox {
+	width:754px;
+	height:210px;
+	padding:16px;
+	margin-left:30px;
+	margin-top:15px;
+	position:relative;
+	bottom:36px;
+}
+
+
+.moreFeaturesBox span{
+	float:left;
+	font-size:15px;
+}
+
+
+#moreFeaturesLeft{
+	float:left;
+}
+
+
+#moreFeaturesRight{
+	float:right;
+	width:320px;
+	height:100%;
+}
+
+
+#activityDiv {
+	float:left;
+	height:60px;
+	width:400px;
+}
+
+#activityBorder, #placeBorder {
+	-moz-border-radius:6px 6px 6px 6px;
+	border:1px solid #999;
+	float:left;
+	margin-top:4px;
+	padding:2px;
+	width:395px;
+}
+
+#activityBorder {
+	height:40px;
+}
+
+#placeBorder {
+	height:21px;
+}
+
+#activityTextArea {
+	border:medium none;
+	clear:left;
+	float:left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	height:34px;
+	left:1px;
+	overflow:hidden;
+	position:relative;
+	top:1px;
+	width:390px;
+	resize:none;
+}
+
+
+#placeDiv {
+	float:left;
+	clear:left;
+	width:372px;
+	height:40px;
+	margin-top:24px;
+}
+
+
+#placeTextInput {
+	float:left;
+	clear:left;
+	width:390px;
+	height:18px;
+	position:relative;
+	left:1px;
+	border:none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+}
+
+
+#timeEndDiv {
+	float:left;
+	clear:left;
+	width:210px;
+	height:24px;
+	margin-top:35px;
+}
+
+
+#timeEndTextInputOne, #timeEndTextInputTwo {
+	float:left;
+	width:26px;
+	height:14px;
+	margin-left:7px;
+}
+
+
+#timeEndTextInputOne {
+	
+	margin-right:7px;	
+}
+
+
+#timeEndDropDownBox {
+	float:left;
+	margin-left:7px;
+}
+
+
+#clearMoreFeaturesBoxLink {
+	float:right;
+	color:#C03237;
+	font-weight:bold;
+	position:relative;
+	right:20px;
+	bottom:12px;
+	font-size:13px;
+}
+
+
+#statusListBorder {
+	float:left;
+	clear:left;
+	width:300px;
+	height:200px;
+	background-color:#F2F2F2;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	border:1px solid #999;
+	margin-top:3px;
+	position:relative;
+	right:2px;
+	
+}
+
+
+#statusList {
+	overflow-y:scroll;
+	width:286px;
+	height:178px;
+	margin-left:7px;
+	margin-top:7px;
+	padding-top:4px;
+	padding-bottom:4px;
+	background-color:#FFF;
+}
+
+
+#statusList a {
+	color:#0664A3;
+	position:relative;
+	bottom:2px;
+	font-size:12px;
+}
+
+
+#statusList td {
+	padding-left:5px;
+}
+
+#facebookCheckboxDiv {
+	float:left;
+	height:18px;
+	margin-left:270px;
+	width:158px;
+}
+
+#twitterCheckboxDiv {
+	float:left;
+	height:18px;
+	margin-bottom:5px;
+	margin-left:5px;
+	width:154px;
+}
+
+#facebookCheckboxDiv span, #twitterCheckboxDiv span{
+	font-size:12px;
+	margin-left:5px;
+	position:relative;
+	bottom:2px;
+}
+
+
+#signalButton {
+	cursor:pointer;
+	height:52px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3px;
+	width:188px;
+	clear:both;
+}
+
+#signalButton img {
+	float:left;
+}
+
+#signalButtonLoad {
+	left:73px;
+	position:relative;
+	top:8px;
+}
+
+#mainFooter {
+	margin-top:40px;	
+}
+
+#facebookAndTwitterQuestion {
+	position:relative;
+	cursor:pointer;
+}

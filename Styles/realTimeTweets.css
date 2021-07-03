@@ -1,0 +1,88 @@
+div.rrt-inner{
+	height:80px;
+	padding:4px;
+	overflow:hidden;
+}
+/* ul list */
+div.rrt-inner ul{
+	float:left;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+}
+div.rrt-inner li{
+	float:left;
+	margin:0 0 0 0;
+	list-style-type:none;
+	position:relative;
+}
+/* author img */
+div.rrt-inner span.rrt-author-img{
+	display:block;
+	width:48px;
+	height:48px;
+	margin:0 5px 0 0;
+	overflow:hidden;
+	left:0;
+	position:absolute;
+}
+/* author name */
+div.rrt-inner strong a{
+	margin-right:5px;
+	color:#00003D;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/* tweet body */
+div.rrt-inner span.rrt-body {
+	bottom:5px;
+	display:block;
+	margin-left:60px;
+	position:relative;
+}
+/* tweet content */
+div.rrt-inner span.rrt-content{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/* tweet date and source */
+div.rrt-inner span.rrt-meta {
+	color:#999999;
+	display:block;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	margin:3px 0 0;
+	width:200px;
+}
+div.rrt-inner span.rrt-meta a{
+	color:#999999;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+}
+div.rrt-inner span.rrt-meta a:hover{
+	text-decoration:underline;
+}
+/* customize date link */
+div.rrt-inner a.rrt-date { }
+/* customize source link */
+div.rrt-inner a.rrt-source { }
+
+/* customize links */
+div.rrt-inner a.rrt-link { 
+	color:#0664A3;	
+}
+
+#rrt a:hover {
+	text-decoration:underline;	
+}
+/* customize @user links */
+div.rrt-inner a.rrt-at { }
+/* customize #hashtags links */
+div.rrt-inner a.rrt-hashtag { }
+
+.rrt-source {
+	color:#999999;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+}

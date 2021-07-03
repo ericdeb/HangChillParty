@@ -1,0 +1,434 @@
+#findFriends, #friendsSearchSideBar, #friendsSearchTabs {
+	background-color:#FFF;	
+}
+
+#friendsSearchSideBar {
+	width:190px;
+	height:152px;	
+}
+
+
+#friendsSearchSideBar span {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#friendsSearchSideBar div {
+	width:190px;
+	height:30px;
+	cursor:pointer;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+
+#friendsSearchSideBar div span {
+	position:relative;	
+	top:6px;
+	left:12px;
+}
+
+
+.friendsSearchTabHighlight {
+	background-color:#00003D;	
+}
+
+.friendsSearchTabHighlight span{
+	color:#FFF;
+}
+
+
+#friendsSearchTabs {
+	float:left;	
+}
+
+
+#findFriends, #friendsOf {
+	-moz-border-radius-bottomright: 65px;
+	-moz-border-radius-bottomleft: 65px;
+	border-bottom-left-radius: 65px;
+	border-bottom-right-radius: 65px;
+}
+
+.findFriendsSearch {
+	height:758px;
+}
+
+.findFriendsWithFacebook {
+	height:528px;	
+}
+
+.findFriendsInviteFacebook {
+	height:875px;	
+}
+
+.findFriendsInviteEmail {
+	height:750px;	
+}
+
+
+#friendsSearch, #friendsFromFacebook {
+	width:600px;
+	margin-top:10px;
+	height:680px;
+}
+
+#friendsSearch {
+	margin-left:10px;	
+}
+
+#friendsFromFacebook {
+	float:left;	
+	margin-left:30px;
+}
+
+#friendsFromFacebookResults {
+	width:100%;
+	height:100%;
+	float:left;
+}
+
+
+#friendsSearchOptionsBox {
+	font-size:13px;
+	width:578px;
+	margin-left:20px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-left:10px;
+	border-bottom:2px solid #DDDDDD;
+}
+
+
+.friendsSearchOptionsBoxClass span {
+	position:relative;
+	top:3px;
+	float:left;
+}
+
+.friendsSearchOptionsBoxClass div {
+	float:left;
+	position:relative;
+	width:256px;
+	margin-top:18px;
+}
+
+
+#nameSearchInput {
+	margin-left:13px;	
+}
+
+
+#sortBySearchDropDown {
+	margin-left:6px;
+}
+
+#milesSearchInput {
+	margin-left:11px;
+	margin-right:5px;
+}
+
+
+
+#searchByLabel {
+	font-size:14px;	
+	margin-left:190px;
+}
+
+#milesSearchInputShell {
+	margin-left:40px;	
+}
+
+#sortBySearchInputShell {
+	margin-left:49px;
+	width:160px;
+}
+
+#nameSearchInputShell {
+	margin-left:19px;	
+}
+
+.autoCompleteGray {
+	color:#999;	
+}
+
+
+#friendsSearchButton {
+	right:60px;
+	top:8px;
+}
+
+#friendsSearchHorizontalLine, #friendsSearchHorizontalLine {
+	border:solid 1px #CCC;
+	position:relative;
+	top:12px;
+}
+
+#friendsSearchHorizontalLine {
+	width:94%;
+	left:18px;
+	display:none;
+}
+
+#friendsSearchHorizontalLine {
+	width:90%;
+	left:5px;
+}
+
+
+
+#friendsSearchButton img{
+	cursor:pointer;
+	float:left;
+}
+
+.searchPageBox, .searchPageBox img, #friendsSearchResultsResponseMessage, #friendsSearchResultsLoadingImage, #friendsSearchResultsResults, #friendsOfResultsResponseMessage {
+	display:none;
+}
+
+
+.friendsSearchProfile {
+	width:250px;
+	height:50px;
+	font-size:12px;
+	float:left;
+	margin-top:22px;
+}
+
+#friendsSearchResults {
+	margin-left:36px;
+	margin-top:11px;
+	width:566px;
+	height:440px;
+}
+
+.friendsSearchProfile .friendRequestLink {
+	float:right;	
+}
+
+
+.friendsSearchProfile img, .friendsSearchProfile div, .friendsSearchProfile .namelink {
+	float:left;
+}
+
+.friendsSearchProfile a, .friendsSearchProfile div {
+	margin-left:10px;	
+}
+
+.friendsSearchProfile a {
+	color:#0664A3;
+}
+
+#friendsSearchResultsResults table {
+	border-spacing:0px;	
+}
+
+.searchResultsLeftColumn {
+	margin-left:10px;	
+}
+
+.searchResultsRight {
+	margin-left:66px;	
+}
+
+
+.friendsSearchProfile .friendsSearchMutualFriends, .friendsSearchProfile .friendRequestLink {
+	margin-top:2px;	
+}
+
+
+.searchPageBox {
+	height:25px;
+	clear: both;
+	float:left;
+	margin-top:40px;
+	
+}
+
+
+.searchPageBoxLeftArrow, .searchPageBoxRightArrow, .searchPageBox span {
+	float:left;
+}
+
+.searchPageBoxCurrentPage {
+	font-weight:bold;	
+}
+
+.searchPageBoxNumbers {
+	margin-left:15px;
+	color:#000;
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.searchPageBoxRightArrow {
+	margin-left:15px;	
+}
+
+.searchPageBoxLeftArrow, .searchPageBoxRightArrow,  {
+	width:16px;
+	height:25px;
+}
+
+.searchPageBoxLeftArrow img, .searchPageBoxRightArrow img{
+	cursor:pointer;
+}
+
+#friendsSearchResultsResponseMessage, #friendsFromFacebookResultsResponseMessage, #emailInviteFriendsResponseMessage, #friendsOfResultsResponseMessage {
+	margin-left:auto;
+	margin-right:auto;
+	width:300px;
+	text-align:center;
+}
+
+#friendsOfResultsResponseMessage {
+	margin-top:150px;	
+}
+
+#friendsSearchResultsResponseMessage, #friendsFromFacebookResultsResponseMessage {
+	margin-top:150px;	
+}
+
+#emailInviteFriendsResponseMessage {
+	margin-top:80px;
+	position:relative;
+	right:10px;
+}
+
+.searchResultsErrorMessage span {
+	color:#C03237;	
+}
+
+#friendsSearchResultsLoadingImage, #friendsFromFacebookResultsLoadingImage, #emailInviteFriendsLoadingImage {
+	width:75px;
+	height:75px;
+}
+
+#friendsSearchResultsLoadingImage, #friendsFromFacebookResultsLoadingImage, #friendsOfResultsLoadingImage {
+	margin-left:245px;
+	margin-top:150px;
+}
+
+#emailInviteFriendsLoadingImage {
+	margin-left:241px;
+	margin-top:60px;
+	margin-bottom:93px;
+}
+
+#friendsOfResultsLoadingImage {
+	margin-bottom:203px;	
+}
+
+#friendsSearchResultsLoadingImage {
+	margin-bottom:146px;	
+}
+
+#friendsFromFacebookResultsLoadingImage {
+	margin-bottom:135px;
+}
+
+#friendsSearchResultsResults {
+	height:360px;	
+}
+
+.friendRequestSuccess {
+	color:#63F;	
+}
+
+#friendsFromFacebook {
+	height:438px;	
+}
+
+#facebookFriendSelector {
+	margin-left:30px;
+	margin-top:20px;
+	overflow-x:hidden;
+	width:800px;
+}
+
+#inviteEmailFriends {
+	width:600px;
+	margin-left:20px;
+	margin-top:20px;
+	height:658px;
+}
+
+
+#inviteEmailTextArea {
+	width:400px;
+	height:200px;
+	margin-left:100px;
+	margin-top:20px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:15px;
+	overflow:auto;
+}
+
+#inviteEmailFriendsButton {
+	margin-left:240px;	
+	margin-top:20px;
+}
+
+#inviteEmailFriendsResultsLabel {
+	text-align:center;
+	margin-top:20px;
+	display:none;
+}
+
+#inviteEmailFriendsResultsLabel span {
+	font-size:16px;
+	font-weight:bold;
+}
+
+#inviteEmailFriendsButton img {
+	cursor:pointer;	
+}
+
+#inviteEmailFriendsLabel span {
+	font-size:12px;
+	margin-left:35px;	
+}
+
+#emailInviteFriends {
+	height:298px;
+	margin-left:25px;
+}
+
+#emailInviteFriendsResults {
+	height:228px;
+}
+
+#emailInviteFriendsPageBox {
+	margin-top:25px;	
+}
+
+#facebookFriendsSuccess span{
+	color:#662D91;
+	font-size:18px;
+	font-weight:bold;
+	margin-left:20px;	
+}
+
+#friendsOf {
+	background-color:#FFFFFF;
+	height:550px;
+	padding-top:30px;
+}
+
+#friendsOfInner {
+	height:520px;
+	margin-left:150px;
+	width:650px;
+}
+
+#friendsOfResults {
+	height:500px;
+}
+
+.friendsOfSearchBackButton {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:16px;
+}
+

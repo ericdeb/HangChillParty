@@ -1,0 +1,9 @@
+<files *>
+
+	  options -indexes +FollowSymlinks
+	  RewriteEngine On
+	  RewriteRule ^.*/UserImages/(.*).jpg /requestswitch.php?action=getImage&userID=$1&width=50&height=50 
+	  
+
+</files>
+

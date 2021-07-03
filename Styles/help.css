@@ -1,0 +1,156 @@
+#help, #stepsToSuccessTab {
+	background-color:#FFF;
+	-moz-border-radius-bottomright: 65px;
+	-moz-border-radius-bottomleft: 65px;
+	border-bottom-left-radius: 65px;
+	border-bottom-right-radius: 65px;
+	padding-bottom:60px;
+}
+
+.stepsToSuccessTitle, .facebookAndTwitterLabel {
+	font-size:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	float:left;
+}	
+
+.stepsToSuccessText {
+	clear:left;
+	float:left;
+	font-size:14px;
+	margin-bottom:40px;
+	margin-left:60px;
+	margin-top:2px;
+}
+
+.stepsToSuccess a {
+	color:#e9a713;
+	font-weight:bold;
+}
+
+
+.stepsToSuccess img {
+	float:left;
+	margin-left:30px;
+}
+
+
+.stepsToSuccessAddFriends {
+	margin-top:26px;
+}
+
+.stepsToSuccessConnect {
+	margin-top:30px;
+}
+
+.stepsToSuccessSignal {
+	margin-top:32px;
+}
+
+.stepsToSuccessJoin {
+	margin-top:36px;
+}
+
+#stepsToSuccessHelp {
+	float:left;
+	margin-left:30px;
+	margin-top:40px;
+	width:600px;
+}
+
+#helpTabsHeading {
+	display:none;	
+}
+
+#helpFAQs, #socialMeterHelp {
+	float:left;
+	font-size:14px;
+	margin-left:30px;
+	margin-top:30px;
+	width:600px;
+}
+
+#helpSideBar div {
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	cursor:pointer;
+	height:30px;
+	width:190px;
+}
+
+#helpSideBar div span {
+	left:12px;
+	position:relative;
+	top:6px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.helpTabHighlight span {
+	color:#FFF;	
+}
+
+.helpTabHighlight {
+	background-color:#00003D;	
+}
+
+#stepsToSuccessHelpCellPhoneDoodle, #stepsToSuccessHelpFacebookDoodle, #stepsToSuccessTabStepsFacebookDoodle, #stepsToSuccessTabStepsCellPhoneDoodle {
+	cursor:pointer;	
+}
+
+.FAQsTitle, .socialMeterTitle {
+	font-size:16px;
+	font-weight:bold;
+}
+
+#helpHorizontalLine , #stepsToSuccessHorizontalLine{
+	background-color:#DDDDDD;
+	clear:both;
+	height:1px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:60px;
+	width:85%;
+}
+
+#stepsToSuccessTabInner {
+	margin-left:40px;
+	margin-top:30px;
+	width:650px;
+	height:500px;
+}	
+
+#skipPageLink {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	margin-left:40px;
+}
+
+#coolImDoneButton {
+	clear:both;
+	margin-left:340px;
+	margin-top:20px;
+	cursor:pointer;
+}
+
+#stepsToSuccessTabSteps img {
+	margin-left:50px;	
+}
+
+#stepsToSuccessTabSteps .stepsToSuccessText {
+	margin-left:80px;
+}
+
+#facebookAndTwitterHelp {
+	float:left;
+	height:500px;
+	margin-left:40px;
+	margin-top:30px;
+	width:600px;
+}
+
+#facebookAndTwitterHelp img {
+	float:left;
+	margin-bottom:30px;
+	margin-left:40px;
+	margin-top:20px;
+}

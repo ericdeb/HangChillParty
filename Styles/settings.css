@@ -1,0 +1,430 @@
+#settings, #settingsSideBar, #settingsTabs {
+	background-color:#FFF;	
+}
+
+.settings {
+	font-size:14px;	
+}
+
+#settings {
+	min-height:720px;
+	-moz-border-radius-bottomright: 65px;
+	-moz-border-radius-bottomleft: 65px;
+	border-bottom-left-radius: 65px;
+	border-bottom-right-radius: 65px;
+}
+
+#settingsInner {
+	padding-bottom:50px;
+}
+
+
+
+#settingsSideBar div {
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	width:190px;
+	height:30px;
+	cursor:pointer;
+}
+
+#settingsTabs {
+	float:left;
+	margin-left:15px;
+	margin-top:15px;
+	width:625px;
+}
+
+
+#settingsSideBar div span {
+	left:12px;
+	position:relative;
+	top:6px;
+}
+
+
+#settingsSideBar span {
+	font-family:Arial,Helvetica,sans-serif;
+}
+
+.settingsTabHighlight {
+	background-color:#00003D;
+}
+
+.settingsTabHighlight span{
+	color:#FFF;
+}
+
+.settingsTitle {
+	margin-left:120px;
+}
+
+.settingsTitle span {
+	font-size:20px;
+}
+
+
+#textSettingsTinyMessage {
+	bottom:3px;
+	left:3px;
+	font-size:11.5px;
+}
+
+.tinyMessage {
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11.5px;
+	color:#AAA;	
+}
+
+#textSettingsCheckboxes, #emailSettingsCheckboxes {
+	margin-left:145px;
+}
+
+#textSettingsCheckboxes {
+	height:110px;
+}
+
+#emailSettingsCheckboxes {
+	height:205px;	
+}
+	
+#textSettingsCheckboxes span, #emailSettingsCheckboxes span{
+	margin-top:15px;
+	margin-left:5px;
+	float:left;
+}
+
+#textSettingsCheckboxes input, #emailSettingsCheckboxes input{
+	margin-top:15px;
+	position:relative;
+	top:3px;
+	float:left;
+	clear:left;
+}
+
+.settingsResults {
+	width:500px;
+	height:150px;
+	margin-top:25px;
+}
+
+.settingsSaveButton {
+	text-align:center;	
+}
+
+#textSettingsResults, #emailSettingsResults {
+	margin-left:25px;	
+}
+
+.currentEmail, .currentPhone {
+	margin-left:120px;
+	width:400px;
+}
+
+.currentEmail span {
+	margin-right:30px;
+}
+
+.currentEmail, .currentPhone {
+	margin-top:15px;
+}
+
+.currentPhone span {
+	margin-right:42px;
+}
+
+.currentEmail input {
+	width:200px;
+}
+
+
+.currentPhone input {
+	width:40px;	
+	margin-right:10px;
+}
+
+#currentEmailMessage {
+	margin-left:114px;	
+}
+
+#currentPhoneMessage {
+	margin-left:114px;	
+}
+
+#contactSettingsResults {
+	margin-left:30px;	
+}
+
+#socialNetworksSettingsLabel {
+	margin-left:20px;
+	margin-top:5px;
+	float:left;
+}
+
+#socialNetworksSettingsFacebookLabel, #socialNetworksSettingsTwitterLabel {
+	clear:left;
+	float:left;
+	margin-left:80px;
+	margin-top:25px;
+}
+
+#facebookSettingsButton {
+	float:left;
+	margin-left:23px;
+	margin-top:24px;
+}
+
+#twitterSettingsButton {
+	float:left;
+	margin-left:40px;
+	margin-top:24px;
+}
+
+#facebookSettingsLoginButton, #twitterSettingsLoginButton {
+	float:left;	
+	cursor:pointer;
+}
+
+#publishToMyFacebookSettingsCheckbox, #publishToMyTwitterSettingsCheckbox {
+	clear:left;
+	float:left;
+	margin-left:132px;
+	margin-top:30px;
+}
+
+#socialNetworkSettingsFacebookCheckboxDiv span, #socialNetworkSettingsTwitterCheckboxDiv span {
+	float:left;
+	margin-left:20px;
+	margin-top:26px;
+	width:400px;
+}
+
+#socialNetworkSettingsResults {
+	float:left;	
+}
+
+
+#profileSettingsTop, #profileSettingsMiddle, #profileSettingsBottom {
+	margin-left:120px;
+	width:325px;
+	overflow-x:visible;
+}
+
+#profileSettingsTop {
+	height:200px;	
+	margin-top:10px;
+}
+
+#profileSettingsTop, #profileSettingsMiddle {
+	border-bottom:solid 1px #CCC;
+}
+
+#profileSettingsMiddle, #profileSettingsBottom {
+	margin-top:20px;	
+}
+
+#profileSettingsMiddle {
+	padding-bottom:15px;	
+}
+
+#profileSettingsFirstName input {
+	margin-left:35px;
+}
+
+#profileSettingsLastName input {
+	margin-left:35px;
+	margin-top:10px;
+}
+
+.profileSettingsGender, #profileSettingsBirthday,  #profileSettingsBlurb {
+	margin-top:10px;
+	clear:both;
+}
+
+
+#profileSettingsBirthday span {
+	float:left	
+}
+
+#settingsBirthdayInput {
+	float:left;	
+	margin-left:48px;
+}
+
+#blurbTextArea {
+	margin-left:56px;
+	float:left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+	overflow:auto;
+}
+
+#profileSettingsBlurb span {
+	float:left;	
+}
+
+#profileSettingsBlurb {
+	height:55px;
+}
+
+#genderRadio {
+	width:140px;
+	float:left;
+	margin-left:75px;
+}
+
+#genderRadio span {
+	float:left;
+}
+
+#genderRadio input {
+	margin-left:5px;
+	margin-right:10px;
+	float:left;
+}
+
+.profileSettingsGender span {
+	float:left;	
+}
+
+.profileSettingsGender {
+	height:18px;
+}
+
+#profileSettingsBirthday {
+	height:25px;
+}
+
+#birthdayDayYearDropDown {
+	margin-left:5px;
+}
+
+
+#settingsTimeZoneInput {
+	margin-top:15px;	
+}
+
+#profileSettingsResults {
+	float:left;
+	position:relative;
+	right:75px;
+	top:10px;
+}
+
+.settingsSaveButton img, .settingsSubmitButton img{
+	cursor:pointer;
+}
+
+#imageSettings span, #imageSettings div, #imageSettings img, #imageSettings input {
+	float:left;	
+}
+
+#imageSettings .userImage {
+	margin-left:120px;	
+	margin-top:20px;
+}
+
+.imageSettingsCurrentLabel {
+	margin-left:15px;
+	margin-top:35px;
+}
+
+.imageSettingsUploadLabel {
+	clear:left;
+	margin-left:120px;
+	margin-top:20px;
+}
+
+#imageSettings input {
+	clear:left;
+	margin-left:120px;
+}
+
+#imageSettingsSubmit {
+	clear:left;	
+	margin-top:8px;
+	margin-left:120px;
+}
+
+
+.settingsResultsPassword span, .settingsResultsPassword input, .settingsResultsPassword div{
+	float:left;
+}
+
+.settingsResultsPassword span {
+	margin-left:120px;	
+}
+
+.settingsResultsPassword input {
+	margin-left:120px;
+	margin-top:10px;
+}
+
+.settingsResultsPassword div {
+	margin-left:10px;
+	margin-top:8px;
+	height:26px;
+}
+
+.settingsResultsPassword {
+	height:60px;	
+}
+
+.settingsResultsResponse {
+	line-height:20px;
+	margin-top:20px;
+	text-align:center;
+}
+
+.settingsResultsError{
+	color:#C03237;
+}
+
+.settingsSuccess {
+	color:#662D91;
+}
+
+.settingsResults .loadingImage{
+	width:50px;
+	height:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#facebookSettingsRemoveLink {
+	position:relative;
+	right:147px;
+	top:15px;
+}
+
+
+#twitterSettingsRemoveLink {
+	position:relative;
+	right:130px;
+	top:15px;
+}
+
+#settingsNewPassword, #settingsNewPasswordAgain {
+	margin-left:120px;
+	margin-top:15px;
+}
+
+#settingsNewPassword input {
+	margin-left:30px;	
+}
+
+#settingsNewPasswordAgain input {
+	margin-left:85px;	
+}
+
+#settingsTinyMessage {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin-left:120px;
+	color:#AAA;
+}
+
+
+

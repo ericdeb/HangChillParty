@@ -1,0 +1,69 @@
+
+#mainMenuBar {
+	background-image:url("../Images/topBar.gif");
+	width:100%;
+	height:81px;
+	-moz-border-radius-topleft: 65px;
+	-moz-border-radius-topright: 65px;
+    border-top-left-radius: 65px;
+	border-top-right-radius: 65px;
+}
+
+
+#mainMenuBar a {
+	color:#FFF;
+}
+
+
+#mainTopLinks {
+	font-size:15px;
+	left:246px;
+	position:relative;
+	top:15px;
+}
+
+
+#upperLeftTopLinks {
+	font-size:12px;
+	position:relative;
+	float:right;
+	margin-right:55px;
+	margin-top:5px;
+}
+
+
+#upperLeftTopLinks a{
+	margin-left:15px;
+}
+
+#mainTopLinks img {
+	margin-left:30px;
+	cursor:pointer;
+}
+
+
+#mainMenuHangchillpartyLogo {
+	height:30px;
+	margin-left:33px;
+	position:relative;
+	top:26px;
+	width:188px;
+	cursor:pointer;
+}
+
+#hangchillpartyLink {
+	position:relative;
+	top:4px;
+}
+
+
+#alertsLinkNumber {
+	bottom:8px;
+	color:#00FF8C;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	left:2px;
+	position:relative;
+}
+

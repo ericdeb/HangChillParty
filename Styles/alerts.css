@@ -1,0 +1,173 @@
+#alerts {
+	min-height:600px;
+	background-color:#FFF;
+	-moz-border-radius-bottomright: 65px;
+	-moz-border-radius-bottomleft: 65px;
+	border-bottom-left-radius: 65px;
+	border-bottom-right-radius: 65px;
+	padding-bottom:50px;
+}
+
+
+#noAlertsMessage {
+	margin-top:60px;
+	text-align:center;
+}
+
+
+#alertsDays {
+	margin-left:100px;
+	width:550px;
+	font-size:12px;
+	margin-top:10px;
+	overflow-x:visible;
+}
+
+
+.friendshipAlert a, .newsItemAlert a, .requestAccepted a, .friendRequestInner .nameLink, .friendRequestAccepted a{
+	color:#0664A3;
+}
+
+.alertDayDate {
+	color:#999999;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.alertDay {
+	margin-top:10px;
+	border-bottom:1px solid #AAA;
+	padding-bottom:10px;
+	float:left;
+	min-width:550px;
+}
+
+.newsItemAlert {
+	clear:left;
+	height:18px;
+	margin-top:2px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+.newsItemAlert a{
+	color:#141414;
+	font-weight:bold;
+	margin-left:6px;
+}
+
+.newsItemAlert span {
+	font-weight:bold;	
+	margin-left:6px;
+}
+
+
+.alertDayInner {
+	margin-left:55px;
+	margin-top:2px;
+}
+
+
+.alertDayInner .userImage{
+	margin-left:5px;	
+}
+
+.friendshipAlert span {
+	margin-left:8px;
+	position:relative;
+	bottom:2px;
+}
+
+.friendRequestInner {
+	float:left;
+}
+
+.friendRequestAlert .userImage {
+	float:left;	
+}
+
+.alertDayInner div {
+	float:left;	
+}
+
+.friendRequestInner {
+	float:left;
+	margin-left:36px;
+	margin-top:8px;
+}
+
+.friendRequestAlert {
+	height:45px;
+	min-width:300px;
+	clear:left;
+}
+
+.friendshipAlert, .requestAcceptedAlert {
+	height:28px;	
+	clear:left;
+	margin-top:2px;
+}
+
+.acceptRequestLink {
+	clear:left;
+	margin-left:50px;
+	margin-top:5px;
+}
+
+.acceptRequestLink, .denyRequestLink {
+	margin-left:50px;
+	margin-top:5px;
+	color:#141414;
+}
+
+.friendRequestInner a, .friendRequestInner span {
+	float:left;	
+}
+
+.friendRequestInner span {
+	margin-left:5px;	
+	margin-right:5px;
+}
+
+.friendRequestAccepted span {
+	bottom:2px;
+	margin-left:36px;
+	position:relative;	
+}
+
+#respondToFriendLoad {
+	margin-left:120px;	
+}
+
+.friendRequestAlertError span{
+	color:#B21800;	
+}
+
+.friendRequestSuccess {
+	color:#662D91;
+}
+
+.acceptResponseSelections, .acceptResponseSelections input{
+	float:left;
+}
+
+.acceptResponseSelections input {
+	position:relative;
+	bottom:2px;
+}
+
+.acceptResponseSelections a {
+	margin-left:6px;	
+	color:#662D91;
+}
+
+.alertResponseMessage {
+	position:relative;
+	left:30px;
+}
+
+
+
+
+
+

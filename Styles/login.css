@@ -1,0 +1,792 @@
+#loginMain {
+   width:850px;
+   margin-left:auto;
+   margin-right:auto;
+   -moz-border-radius: 65px;
+   -webkit-border-radius: 65px;
+   background-color:#00003D;
+   margin-top:20px;
+   margin-bottom:20px;
+}
+
+#login {
+	background-color:#FFF;
+	text-align:center;
+	padding-bottom:40px;
+	padding-top:40px;
+	border-bottom-left-radius: 65px;
+	border-bottom-right-radius: 65px;
+    -moz-border-radius-bottomleft: 65px;
+	-moz-border-radius-bottomright: 65px;
+}
+
+.loginPageHeader, .registerPageHeader {
+	-moz-border-radius-topleft: 65px;
+	-moz-border-radius-topright: 65px;
+    border-top-left-radius: 65px;
+	border-top-right-radius: 65px;
+}
+
+.loginLightBox {
+	display:none;
+}
+
+.topBarImage {
+	position:relative;	
+}
+
+.loginPageHeader {
+	height:108px;
+	background-image:url("../Images/loginTopBar.png");
+}
+
+.registerPageHeader {
+	height:81px;
+	background-image:url("../Images/topBar.gif");
+}
+
+.haveAnAccount, .signInLink {
+	float:right;
+	font-size:16px;
+	margin-top:5px;
+}
+
+.haveAnAccount {
+	margin-right:10px;
+	color:#B3B3B3
+}
+
+.signInLink {
+	margin-right:55px;
+	color:#FFF;
+}
+
+#loginLight {
+	margin-left:100px;
+	width:250px;
+	height:180px;
+	margin-top:5px;
+	float:left;
+}
+
+
+#loginLight span {
+	font-size:15px;
+}
+
+
+#statusLightLabel {
+	text-align:center;
+	margin-bottom:5px;
+}
+
+
+#leftArrowImg, #rightArrowImg, #bigLightContainer, #statusLightMsg {
+	float:left;
+}
+
+
+#leftArrowImg {
+	cursor:pointer;
+	margin-left:37px;
+	margin-top:44px;
+}
+
+
+#rightArrowImg {
+	cursor:pointer;
+	margin-top:44px;	
+}
+
+
+#statusLightMsg {
+	margin-top:10px;
+	clear: both;
+	width:100%;
+	text-align:center;
+}
+
+
+#bigLightGreen, #bigLightYellow, #bigLightRed {
+	position:absolute;
+	top:0px;
+}
+
+
+#bigLightContainer {
+	height:120px;
+	width:120px;
+	overflow:hidden;
+	position:relative;
+	margin-left:12px;
+	margin-right:12px;
+}
+
+#signUpRegister, #loginSignUpLabel {
+	float:right;
+}
+
+#signUpRegister {
+	height:165px;
+	margin-right:10px;
+	margin-top:20px;
+	width:200px;
+	position:relative;
+}
+
+#signalRegister {
+	height:52px;
+	margin-left:131px;
+	margin-top:15px;
+	width:188px;
+	float:left;
+}
+
+#loginSignUpLabel {
+	clear:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#AAA;
+	margin-right:60px;
+	margin-top:5px;
+}
+
+#loginDescription {
+	margin-top:30px;	
+}
+
+#signalRegistersignal, #signUpRegistersignUp {
+	position:relative;
+	cursor:pointer;
+}
+
+#loginHorizontalLine {
+	margin-top:15px;
+}
+
+#registerStepOneHorizontalLine, #registerStepTwoHorizontalLine, #registerStepThreeHorizontalLine {
+	top:20px;	
+}
+
+.loginHorizontalLine {
+	background-color:#DDD;
+	height:1px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	width:85%;
+	clear:both;
+}
+
+#socialLinks {
+	background-color:#FFFFFF;
+	height:116px;
+	margin-top:30px;
+	width:850px;
+	border-radius: 65px;
+   -webkit-border-radius: 65px;
+}
+
+.loginLightBox {
+	background-color:#FFF;	
+   -moz-border-radius: 65px;
+   -webkit-border-radius: 65px;
+	border:#FFDE19 solid 7px;
+	height: 276px;
+	text-align:center;
+	width:400px;
+	padding-top:20px;
+	line-height:16px;
+}
+
+.loginLightBoxTitle {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.loginLightBoxTitleLabel, .lightBoxSignUpLink, #registerEmailTinyMessage, #registerEmailTinyMessage, #registerTinyMessage, #registerStepTwoTimeZoneLabel, #registerPhoneRightLabel {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.lightBoxSignUpLink {
+	color:#6D88C1;
+	margin-left:5px;
+}
+
+.loginLightBoxTitleLabel {
+	color:#AAA;
+}
+
+.facebookLoginButton {
+	float:left;
+	margin-left:32px;
+	margin-top:18px;
+}
+
+.twitterLoginButton {
+	margin-left:30px;
+	margin-top:18px;	
+	float:left;
+}
+
+.facebookLoginButton img, .twitterLoginButton img {
+	float:left;
+	cursor:pointer;
+}
+
+.loginLightBoxEmail {
+	margin-top:25px;	
+}
+
+.loginLightOr {
+	clear:both;
+	left:2px;
+	position:relative;
+	top:11px;
+}
+
+.loginLightOr span{
+	font-size:20px;
+	font-weight:bold;
+}
+
+.loginLightBoxEmail span {
+	font-size:14px;
+	left:1px;
+	margin-right:38px;
+	position:relative;
+}
+
+.loginLightBoxPass span {
+	margin-right:11px;	
+	font-size:14px;
+}
+
+.loginLightBoxEmail input, .loginLightBoxPass input, .register input {
+	width:215px;
+	border:1px #CCC solid;
+}
+
+.loginLightBoxPass {
+	margin-top:10px;	
+}
+
+.loginLightBox .checkbox {
+	margin-left:70px;
+	margin-top:8px;
+
+}
+
+.loginLightBoxRememberMe {
+	bottom:2px;
+	color:#BBBBBB;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:13px;
+	margin-left:2px;
+	position:relative;
+}
+
+.loginButton {
+	margin-top:15px;
+}	
+
+.loginButton .loginButtonImage{
+	height:42px;
+	left:10px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	width:100px;
+	cursor:pointer;
+}
+
+.loginButton span {
+	font-size:14px;
+	text-align:center;
+}
+
+
+.loginButton .loadingImage img{
+	left:5px;
+	position:relative;
+	top:5px;
+}
+
+.register {
+	background-color:#FFF;
+	-moz-border-radius-bottomleft: 65px;
+	-moz-border-radius-bottomright: 65px;
+    border-bottom-left-radius: 65px;
+	border-bottom-right-radius: 65px;
+	padding-bottom:80px;
+}
+
+
+.register span {
+	font-size:14px;
+	float:left;
+}
+
+.register input {
+	float:left;
+}
+
+#registerStepOneEmailLabel, #registerStepOneEmail {
+	margin-top:30px;	
+}
+
+#registerEmailTinyMessage {
+	bottom:3px;
+	clear:left;
+	color:#AAAAAA;
+	margin-left:154px;
+	position:relative;
+}
+
+#registerStepOneEmailLabel, #registerStepOneFirstNameLabel, #registerStepOneLastNameLabel {
+	margin-left:70px;
+	clear:left;
+}
+
+#registerStepOneEmail {
+	margin-left:50px;	
+}
+
+#registerStepOneFirstName, #registerStepOneLastName {
+	margin-left:17px;	
+}
+
+#registerStepOneOr {
+	font-size:20px;
+	font-weight:bold;
+	margin-left:100px;
+	margin-top:25px;
+}
+
+#facebookPermissionsButton {
+	float:left;
+	height:30px;
+	margin-left:100px;
+	margin-top:25px;
+	width:174px;
+	cursor:pointer;
+}
+
+#registerStepOneFirstName, #registerStepOneFirstNameLabel {
+	margin-top:30px;	
+}
+
+#registerStepOneLastName, #registerStepOneLastNameLabel {
+	margin-top:15px;
+}
+
+#registerNewPassword, #registerNewPasswordAgain {
+	float:left;
+	margin-left:275px;
+}
+
+#registerStepOneButton, #registerStepTwoButton, #registerStepThreeButton {
+	float:left;
+	margin-top:30px;
+	cursor:pointer;
+}
+
+#registerStepOneButton {
+	margin-left:400px;
+}
+
+#registerStepTwoButton {
+	margin-left:150px;	
+	clear:left;
+}
+
+#registerStepThreeButton {
+	clear:left;	
+	margin-left:174px;
+}
+
+#registerNewPassword {
+	margin-top:50px;
+}
+
+#registerNewPasswordAgain {
+	margin-top:15px;	
+}
+
+#registerNewPasswordInput {
+	margin-left:20px;	
+}
+
+#registerNewPasswordAgainInput {
+	margin-left:45px;	
+}
+
+#registerTinyMessage {
+	color:#AAA;
+	margin-left:80px;
+	position:relative;
+	top:2px;
+	clear:left;
+}
+
+#registerStepOneError {
+	clear:both;
+	text-align:center;
+	position:relative;
+	top:15px;
+	color:#B21800;
+	left:35px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	margin-top:5px;
+}
+
+#genderRadio input{
+	margin-left:8px;
+	margin-right:40px;
+	width:auto;
+}
+
+#settingsTimeZoneInputRegion {
+	clear:left;	
+}
+
+#registerStepTwoTermsCheckbox {
+	width:auto;
+	clear:left;
+	margin-left:70px;
+	margin-top:20px;
+	border:none;
+}
+
+#registerGenderLabel {
+	float:left;
+	margin-left:7px;
+	margin-top:30px;
+}
+
+#genderRadio {
+	float:left;
+	margin-left:74px;
+	margin-top:30px;
+}
+
+#registerTimeZoneInput {
+	clear:left;
+	float:left;
+	margin-left:70px;
+	margin-top:20px;
+}
+
+#registerStepTwoTimeZoneLabel {
+	color:#AAA;
+	left:150px;
+	position:relative;
+	top:84px;	
+}
+
+#registerStepTwoTermsLabel {
+	margin-left:8px;
+	margin-top:18px;
+	font-size:13px;
+}
+
+#registerStepTwoTerms {
+	float:left;
+	font-size:13px;
+	margin-left:3px;
+	margin-top:18px;
+	text-decoration:underline;
+}
+
+#registerStepTwoError, #registerStepThreeError {
+	color:#B21800;
+	float:left;
+	text-align:center;
+	clear:both;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	margin-botttom:30px;
+	margin-top:5px;
+}
+
+#registerStepTwoError {
+	width:430px;
+}
+
+#registerStepThreeError {
+	width:500px;
+}
+
+#registerPhoneInputOne, #registerPhoneInputTwo, #registerPhoneInputThree {
+	width:40px;
+	margin-right:10px;
+	margin-top:25px;
+}
+
+#registerPhoneLabel {
+	margin-left:45px;	
+	clear:left;	
+	margin-top:25px;
+}
+
+#registerStepThreeButtonSkip {
+	float:left;
+	margin-left:20px;
+	margin-top:4px;
+}
+
+#registerStepThreeButtonSkip span {
+	cursor:pointer;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+
+#registerPhoneInputOne {
+	margin-left:80px;	
+}
+
+#registerPhoneRightLabel {
+	color:#AAA;	
+}
+
+#registerYellowLine {
+	background-color:#FFDE19;
+	clear:left;
+	float:left;
+	height:1px;
+	margin-left:45px;
+	margin-top:35px;
+	width:340px;
+}
+
+#registerPhoneRightLabel {
+	position:relative;
+	top:27px;
+	left: 170px;
+}
+
+.autoCompleteGray {
+	color:#999;	
+}
+
+#registerUploadPicLabel {
+	clear:left;
+	margin-left:45px;
+	margin-top:32px;
+}
+
+#registerUploadPic {
+	margin-left:36px;
+	margin-top:30px;
+}
+
+#registerBlurbLabel {
+	clear:left;
+	margin-left:45px;
+	margin-top:30px;
+}
+
+#registerBlurbTextArea {
+	float:left;
+	margin-left:56px;
+	margin-top:32px;
+	width:215px;
+	overflow:auto;
+}
+
+.connect_widget_text {
+	display:none;	
+}
+
+
+#socialLinks a:hover {
+	text-decoration:none;
+}
+
+#facebookPermissionsButtonSuccess {
+	position:relative;
+	top:2px;
+}
+
+#loginTwitterRetweet {
+	float:left;
+	margin-left:30px;
+	margin-top:23px;
+}	
+
+#loginFooter {
+	margin-top:50px;
+}
+
+#rrt {
+	float:left;
+	height:80px;
+	margin-left:60px;
+	margin-top:26px;
+	width:440px;
+}
+
+#diggButton {
+	float:left;
+	margin-left:30px;
+	margin-top:24px;	
+}
+
+#likeButton {
+	float:left;
+	margin-left:50px;
+	margin-top:-40px;
+}
+
+#shareButton {
+	float:left;
+	margin-left:50px;
+	margin-top:24px;
+}
+
+.registerBackButton {
+	float:left;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	margin-left:30px;
+	margin-top:3px;
+}
+
+#helpSideBar {
+	clear:left;	
+	margin-top:20px;
+}
+
+.loginForgotPassLink {
+	bottom:2px;
+	color:#0664A3;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:13px;
+	margin-left:76px;
+	position:relative;
+}
+
+.loginForgotPass {
+	position:absolute;
+}
+
+.loginForgotPass span {
+	font-size:14px;
+	left:1px;
+	margin-right:20px;
+	position:relative;	
+}
+
+.loginForgotPass .textInput {
+	border:1px solid #CCCCCC;
+	width:215px;	
+}
+
+.loginForgotPass img {
+	margin-left:7px;
+	position:relative;
+	top:6px;
+	cursor:pointer;
+}
+
+.loginButtonError {
+	color:#B21800;	
+}
+
+.loginButtonSuccess {
+	color:#662D91;
+}
+
+#loginLeftSide {
+	float:left;
+	width:215px;
+	text-align:left;
+}
+
+#loginLeftSide span {
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#loginLeftSideGetInfo img, #loginLeftSideSeeCoolness img, #LoginLeftSideSignalAndInvite img {
+	margin-left:7px;
+	margin-right:7px;
+}
+
+#loginLeftSideGetInfo, #loginLeftSideSeeCoolness, #LoginLeftSideSignalAndInvite {
+	border-top:2px solid #00003D;
+	padding-top:7px;
+	padding-bottom:8px;
+}
+
+#loginLeftSideSeeCoolness {
+	height:80px;
+}	
+
+#loginLeftSideGetTexts, #loginLeftSideGetEmails, #loginLeftSideFriendsChillSpan, #loginLeftSideSocialMeterDiv img, #LoginLeftSideSignalAndInviteIcons {
+	margin-left:23px;	
+}
+
+#loginLeftSideGetTexts img, #loginLeftSideGetEmails img {
+	margin-left:0px;	
+}
+
+#loginLeftSideGetTexts {
+	margin-top:5px;	
+}
+
+#loginLeftSideGetTexts, #loginLeftSideGetEmails {
+	border-top:1px solid #E7E7E7;
+	padding-top:4px;
+	padding-bottom:7px;
+}
+
+#loginLeftSideGetEmails, #loginLeftSideSocialMeterLabel { 
+	border-bottom:1px solid #E7E7E7;
+}
+
+#loginLeftSideFriendsChillSpan {
+	position:relative;
+	top:2px;
+}
+
+#loginLeftSideSeeCoolness img {
+	float:left;
+	margin-top:8px;
+}
+
+#loginLeftSideSocialMeterLabel {
+	float:left;
+	margin-bottom:4px;
+	margin-left:1px;
+	padding-bottom:6px;
+}
+
+#LoginLeftSideSignalAndInviteIcons {
+	border-top:1px solid #E7E7E7;
+	margin-top:5px;
+	padding-top:8px;
+}
+
+#LoginLeftSideSignalAndInviteIcons img {
+	margin-left:3px;
+}
+
+#loginLeftSideGetTextsLink, #loginLeftSideGetEmailsLink, #loginLeftSideSocialMeter, #loginLeftSideFacebookIcon, #loginLeftSideTwitterIcon {
+	cursor:pointer;	
+}
+
+#signUpRegistersignUp {
+	cursor:pointer;
+	height:51px;
+	left:5px;
+	position:absolute;
+	top:48px;
+	width:188px;
+}
+

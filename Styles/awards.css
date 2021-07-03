@@ -1,0 +1,12 @@
+#awardsLightBox {
+	display:none;
+	background-color:#FFF;	
+   -moz-border-radius: 65px;
+   -webkit-border-radius: 65px;
+	border:#FFDE19 solid 7px;
+	height: 500px;
+	text-align:center;
+	width:500px;
+	padding-top:20px;
+	line-height:16px;
+}
